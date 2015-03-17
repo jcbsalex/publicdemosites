@@ -30,7 +30,7 @@
       </ul>
     </div>
     
-    <h3>COLORS</h3>
+    <h3>Languages</h3>
     <div class="checklist colors">
     	<ul>
         	<li><a href=""><span style="background:#9b887b"></span>HTML</a></li>
@@ -49,12 +49,10 @@
         </ul>        
     </div>
     
-    <h3>SIZES</h3>
+    <h3>Website help</h3>
     <div class="checklist sizes">
     	<ul>
-        	<li><a href=""><span></span>XS</a></li>
-            <li><a href=""><span></span>S</a></li>
-            <li><a href=""><span></span>M</a></li>
+        	<li><a href=""><span></span>FAQ</a></li>
         </ul>
         
         <ul>
