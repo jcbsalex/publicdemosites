@@ -29,19 +29,19 @@
     <h3>Languages</h3>
     <div class="checklist colors">
     	<ul>
-        	<li><a href=""><span style="background:#9b887b"></span>HTML</a></li>
-            <li><a href=""><span style="background:#9b887b"></span>CSS</a></li>
-            <li><a href=""><span style="background:#9b887b"></span>Python</a></li>
-            <li><a href=""><span style="background:#9b887b"></span>C</a></li>
-        <li><a href=""><span style="background:#9b887b"></span>Javascript</a></li>
+        	<li><a href=""><span style="background:black"></span>HTML</a></li>
+            <li><a href=""><span style="background:black"></span>CSS</a></li>
+            <li><a href=""><span style="background:black"></span>Python</a></li>
+            <li><a href=""><span style="background:black"></span>C</a></li>
+        <li><a href=""><span style="background:black"></span>Javascript</a></li>
         </ul>
         
         <ul>
-        	<li><a href=""><span style="background:#9b887b"></span>Ruby</a></li>
-            <li><a href=""><span style="background:#9b887b"></span>C++</a></li>
-            <li><a href=""><span style="background:#9b887b"></span>Bash</a></li>
-            <li><a href=""><span style="background:#9b887b"></span>PHP</a></li>
-            <li><a href=""><span style="background:#9b887b;border: 1px solid #9b887b;width:13px;height:13px;"></span>Lisp</a></li>
+        	<li><a href=""><span style="background:black"></span></span>Ruby</a></li>
+            <li><a href=""><span style="background:black"></span>C++</a></li>
+            <li><a href=""><span style="background:black"></span>Bash</a></li>
+            <li><a href=""><span style="background:black"></span>PHP</a></li>
+            <li><a href=""><span style="background:black"></span>Lisp</a></li>
         </ul>        
     </div>
 </div>
