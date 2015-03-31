@@ -7,10 +7,9 @@
 <div id="header">
   <ul>
         <li><a href="">Home</a></li>
-        <li><a href="">CSS</a></li>
         <li><a href="">WEBSITE BUILDER</a></li>
         <li><a href="">CONTACT</a></li>                                              
-    </ul>		
+    </ul>  	
 </div>
 
 <div id="sidebar">
@@ -19,14 +18,11 @@
     <div class="checklist categories">
     	<ul>
         	<li><a href="www.w3schools.com/css/"><span></span>w3c schools</a></li>
-        	<li><a href="www.w3schools.com/css/"><span></span>w3c schools</a></li>
-        	<li><a href="www.w3schools.com/css/"><span></span>w3c schools</a></li>
-        <li><a href="www.w3schools.com/css/"><span></span>w3c schools</a></li>
-        	<li><a href="www.w3schools.com/css/"><span></span>w3c schools</a></li>
-        	<li><a href="www.w3schools.com/css/"><span></span>w3c schools</a></li>
-        <li><a href="www.w3schools.com/css/"><span></span>w3c schools</a></li>
-        	<li><a href="www.w3schools.com/css/"><span></span>w3c schools</a></li>
-        	<li><a href="www.w3schools.com/css/"><span></span>w3c schools</a></li>
+        	<li><a href="en.wikipedia.org/wiki/Cascading_Style_Sheets"><span></span>css wiki</a></li>
+        	<li><a href="http://www.w3.org/Style/CSS/Overview.en.html/"><span></span>css overview w3.org</a></li>
+        <li><a href="http://www.csszengarden.com/"><span></span>zen garden css</a></li>
+        	<li><a href="https://css-tricks.com/"><span></span>css tricks</a></li>
+        	<li><a href="http://www.htmlhelp.com/reference/css/"><span></span>web design css reference</a></li>
       </ul>
     </div>
     
@@ -47,13 +43,6 @@
             <li><a href=""><span style="background:#9b887b"></span>PHP</a></li>
             <li><a href=""><span style="background:#9b887b;border: 1px solid #9b887b;width:13px;height:13px;"></span>Lisp</a></li>
         </ul>        
-    </div>
-    
-    <h3>Website help</h3>
-    <div class="checklist sizes">
-    	<ul>
-        	<li><a href=""><span></span>FAQ</a></li>
-        </ul>
     </div>
 </div>
 
