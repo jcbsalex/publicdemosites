@@ -1,0 +1,114 @@
+<h1>Flexible Grid System <span>Tabs</span></h1>
+<div id="tabs" class="wrap md-1 sm-1">
+  <div class="xl-1-1 lg-4-12">
+    <ul class="wrap gutter-5-xl left-xl xl-6 lg-1 md-3 gutter-15-md hidden-sm">
+      <li><a data-tab=".tab-1">TAB1</a></li>
+      <li><a data-tab=".tab-2">TAB2</a></li>
+      <li><a data-tab=".tab-3">TAB3</a></li>
+    </ul>
+  </div>
+  <div class="xl-1-1 lg-8-12">
+    <h3 class="hidden-xl not-hidden-sm"><span data-tab=".tab-1">TAB1</span></h3>
+    <section class="tab-1">
+      <div>
+        Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor.
+        <br/><br/>
+        Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor.
+      </div>
+    </section>
+    <h3 class="hidden-xl not-hidden-sm"><span data-tab=".tab-2">TAB2</span></h3>
+    <section class="tab-2">
+      <div>
+        Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit.
+        <br/><br/>
+        Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit.
+      </div>
+    </section>
+    <h3 class="hidden-xl not-hidden-sm"><span data-tab=".tab-3">TAB3</span></h3>
+    <section class="tab-3">
+      <div>
+        Cras mattis consectetur purus sit amet fermentum. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+        <br/><br/>
+        Cras mattis consectetur purus sit amet fermentum. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+      </div>
+    </section>
+  </div>
+</div>
+..
+/* https://github.com/flexiblegs/tabs */
+/* Flexible Grid System Tabs | CSS | MIT License | flexible.gs */
+
+#tabs {
+  margin: 0 20px;
+}
+#tabs ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+#tabs ul li a, #tabs h3 span {
+  display: block;
+  cursor: pointer;
+  border: 1px solid #E8E8E8;
+  background: #F5F5F5;
+  border-bottom: 0;
+  color: #222;
+  line-height:50px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: normal;
+}
+#tabs ul li a:hover, #tabs h3 span:hover, #tabs ul li.active a, #tabs h3.active span {
+  border: 1px solid #3A99D8;
+  border-bottom: 0;
+  background: #3A99D8;
+  color: #ffffff;
+}
+#tabs h3 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#tabs section {
+  display: none;
+}
+#tabs section.active {
+  display: block;
+}
+#tabs section div {
+  background: #3A99D8;
+  color: #fff;
+  padding: 20px;
+  line-height: 28px;
+  text-align: left;
+}
+
+/* Style */
+
+h1 {
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  padding: 20px;
+  border-bottom: 1px solid #E8E8E8;
+  background: #F5F5F5;
+  color: #222222;
+  font-weight: normal;
+}
+h1 span {
+  font-weight: bold;
+}
+..
+// https://github.com/flexiblegs/tabs
+// Flexible Grid System Tabs | jQuery | MIT License | flexible.gs
+
+function flexiblegsTabs() {
+  $('#tabs ul li a, #tabs h3 span').on('click', function (el) {
+    dataTab = $(this).data('tab');
+    $('#tabs section').removeClass('active').filter(dataTab).addClass('active');
+    $(this).parent('li, h3').addClass('active').siblings('li, h3').removeClass('active');
+  });
+  $("#tabs ul li:first-child a").trigger("click");
+}
+
+flexiblegsTabs();
